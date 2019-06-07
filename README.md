@@ -29,13 +29,30 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 ## Self-Study/Essay Questions
 
 - [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
-to make sure the right data is coming in
+
+Proptypes ensures the  the  right data is coming in.
+
 - [ ] Describe a life-cycle event in React?
-rendering than mounting than update
+1st
+render create and returns elements
+2nd
+componentdidmount Dom manipulations ,network request
+3rd
+componentdidupdate  Dom manipulations ,network request
+4th
+componentwillunmount Dom manipulations ,network request
+
+
 - [ ] Explain the details of a Higher Order Component?
-a higher-order component is a function that takes a component and returns a new component.
+
+
+A higher-order component is a function that takes a component and returns a new component.
+
+
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
-vanilla css lss or a premade stylinging like bootstrap
+
+
+vanilla css  a less complier  or a premade stylinging like bootstrap 
 
 ## Project Setup
 
